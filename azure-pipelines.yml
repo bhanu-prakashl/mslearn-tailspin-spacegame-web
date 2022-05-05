@@ -1,9 +1,9 @@
 # ASP.NET Core
-- task: DotNetCoreCLI@2
+ task: DotNetCoreCLI@2
   inputs:
     command: 'build'
     
-trigger:
+ trigger:
 - main
 
 pool:
