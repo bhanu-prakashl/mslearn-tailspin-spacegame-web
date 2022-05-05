@@ -1,15 +1,15 @@
 # ASP.NET Core
- task: DotNetCoreCLI@2
+ -task: DotNetCoreCLI@2
   inputs:
     command: 'build'
     
- trigger:
-- main
+ t rigger:
+ - main
 
-pool:
+ pool:
   vmImage: ubuntu-latest
 
-variables:
+ variables:
   buildConfiguration: 'Release'
 
 steps:
